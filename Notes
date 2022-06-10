@@ -4,6 +4,9 @@ MMT PROD
 vpc-gtf-mmt-apse1-prd-01
 vpc-00244b5e279b6431e
 
+IPv4	10.192.48.0/23	–	 Associated
+IPv4	10.192.116.0/23
+
 snet-vpc-gtf-mmt-apse1-prd-01-az3-tgw
 subnet-0401bc4af884df469	 Available	vpc-00244b5e279b6431e | vpc-gtf-mmt-apse1-prd-01	10.192.48.128/28	–	10	ap-southeast-1c	apse1-az3	rtb-0e36c18d13820a839 | rtb-snet-vpc-gtf-mmt-apse1-prd-01-tgw	acl-06aee8d7ef418d83b | nacl-gtf-mmt-apse1-prd-01	No	No	No	-	No	230411568158
 

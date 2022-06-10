@@ -1,1 +1,40 @@
-Test
+MMT PROD
+
+	
+vpc-gtf-mmt-apse1-prd-01
+vpc-00244b5e279b6431e
+
+snet-vpc-gtf-mmt-apse1-prd-01-az3-tgw
+subnet-0401bc4af884df469	 Available	vpc-00244b5e279b6431e | vpc-gtf-mmt-apse1-prd-01	10.192.48.128/28	–	10	ap-southeast-1c	apse1-az3	rtb-0e36c18d13820a839 | rtb-snet-vpc-gtf-mmt-apse1-prd-01-tgw	acl-06aee8d7ef418d83b | nacl-gtf-mmt-apse1-prd-01	No	No	No	-	No	230411568158
+
+snet-vpc-gtf-mmt-apse1-prd-01-az3-default
+subnet-05e680cb3db923ac1	 Available	vpc-00244b5e279b6431e | vpc-gtf-mmt-apse1-prd-01	10.192.48.64/27	–	25	ap-southeast-1c	apse1-az3	rtb-02e2bbbc82d46a7e0 | rtb-snet-vpc-gtf-mmt-apse1-prd-01-default	acl-07d5f4872590bceed	No	No	No	-	No	230411568158
+
+snet-vpc-gtf-mmt-apse1-prd-01-az2-tgw
+
+subnet-0af9e8e4560311911	 Available	vpc-00244b5e279b6431e | vpc-gtf-mmt-apse1-prd-01	10.192.48.96/28	–	10	ap-southeast-1a	apse1-az2	rtb-0e36c18d13820a839 | rtb-snet-vpc-gtf-mmt-apse1-prd-01-tgw	acl-06aee8d7ef418d83b | nacl-gtf-mmt-apse1-prd-01	No	No	No	-	No	230411568158
+
+snet-vpc-gtf-mmt-apse1-prd-01-az2-default
+subnet-06053194c9646807d	 Available	vpc-00244b5e279b6431e | vpc-gtf-mmt-apse1-prd-01	10.192.48.0/27	–	25	ap-southeast-1a	apse1-az2	rtb-02e2bbbc82d46a7e0 | rtb-snet-vpc-gtf-mmt-apse1-prd-01-default	acl-07d5f4872590bceed	No	No	No	-	No	230411568158
+
+snet-vpc-gtf-mmt-apse1-prd-01-az1-tgw
+subnet-0e8d3ca3cfc463458	 Available	vpc-00244b5e279b6431e | vpc-gtf-mmt-apse1-prd-01	10.192.48.112/28	–	10	ap-southeast-1b	apse1-az1	rtb-0e36c18d13820a839 | rtb-snet-vpc-gtf-mmt-apse1-prd-01-tgw	acl-06aee8d7ef418d83b | nacl-gtf-mmt-apse1-prd-01	No	No	No	-	No	230411568158
+
+snet-vpc-gtf-mmt-apse1-prd-01-az1-default
+subnet-01a49a1c08df89953	 Available	vpc-00244b5e279b6431e | vpc-gtf-mmt-apse1-prd-01	10.192.48.32/27	–	25
+
+rtb-snet-vpc-gtf-mmt-apse1-prd-01-default
+rtb-02e2bbbc82d46a7e0	3 subnets
+–	No	vpc-00244b5e279b6431e | vpc-gtf-mmt-apse1-prd-01	230411568158
+
+rtb-snet-vpc-gtf-mmt-apse1-prd-01-tgw
+rtb-0e36c18d13820a839	3 subnets
+–	No	vpc-00244b5e279b6431e | vpc-gtf-mmt-apse1-prd-01	230411
+
+nacl-gtf-mmt-apse1-prd-01
+acl-06aee8d7ef418d83b	3 Subnets
+No	vpc-00244b5e279b6431e / vpc-gtf-mmt-apse1-prd-01	10 Inbound rules	2 Outbound rules	230411568158
+
+–
+acl-07d5f4872590bceed	3 Subnets
+Yes	vpc-00244b5e279b6431e / vpc-gtf-mmt-apse1-prd-01	2 Inbound rules	2 Outbound rules	230411568158
